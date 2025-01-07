@@ -5,5 +5,3 @@ editor: source
 ---
 
 # Lecture 1
-
-
