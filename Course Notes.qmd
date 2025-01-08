@@ -5,3 +5,41 @@ editor: source
 ---
 
 # Lecture 1
+
+Common computing paradigms: Rules + Data = Answers (Through Computing)
+
+Machine Learning: Data + Answers = Rules (Learning!)
+
+Using data is a process that repeats in a cycle:
+
+1. Business understanding
+2. Data understanding
+    - Refer back to **1.** to ensure cohesiveness
+3. Data preparation
+4. Modeling
+    - Refer back to **3.** to ensure cohesiveness
+5. Evaluation
+    - Return back to **1.** if needed
+6. Deployment
+
+## Statistical learning
+
+**Input data**: there are multiple types of numerical data
+
+- Continuous, categorical, integer
+
+In general, we will assume that for each individual sample $i$, there is a vector $x_i$ that stores the information of $p$ variables that represent that individual. We have a sample $X$, the design matrix, of cardinality $I$ such that for every $i$ we know their information $x_i$
+
+**Target Variables**
+
+The core of *supervised learning* is that there is a variable $y$ representing the outcome
+
+- Continuous $y$ is a supervised regression problem
+- Discrete $y$ is a supervised classification problem
+- Binary $y$ is the easiest version of a supervised classification problem
+
+If no set $Y$ outcomes exist, then the problem is *unsupervised*
+
+**Defining a model and losses**
+
+A statistical model takes an input and gives an output. A model minimizes loss or error function by measuring the goodness of fit of the function
