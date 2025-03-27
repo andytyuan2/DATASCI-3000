@@ -1,0 +1,225 @@
+﻿Variable,Description,Category,Change Type
+EHYMTN7584,Maintainers 75 To 84,Households by Maintainer Age,New
+EHYMTN85P,Maintainers 85 Or Older,Households by Maintainer Age,New
+EHYHTY1FHP,One-Family Households With Additional Persons,Households by Household Type,New
+EHYHTY1FHNP,One-Family Households Without Additional Persons,Households by Household Type,New
+EHYHTYMGFH,Multigenerational Family Households,Households by Household Type,New
+EHYMOTMNON,Multiple Non-Official Languages,Household Population by Mother Tongue,New
+ECYMTN7584,Maintainers 75 To 84,Households by Maintainer Age,New
+ECYMTN85P,Maintainers 85 Or Older,Households by Maintainer Age,New
+ECYHTY1FHP,One-Family Households With Additional Persons,Households by Household Type,New
+ECYHTY1FHNP,One-Family Households Without Additional Persons,Households by Household Type,New
+ECYHTYMGFH,Multigenerational Family Households,Households by Household Type,New
+ECYMOTMNON,Multiple Non-Official Languages,Household Population by Mother Tongue,New
+ECYHOMMNON,Multiple Non-Official Languages,Household Population by Language Spoken Most Often At Home,New
+ECYPIM0110,2001 To 2010,Household Population by Period of Immigration,New
+ECYPIM1115,2011 To 2015,Household Population by Period of Immigration,New
+ECYPIM1621,2016 To 2021,Household Population by Period of Immigration,New
+ECYPIM22CY,2022 To Present,Household Population by Period of Immigration,New
+P3YMTN7584,Maintainers 75 To 84,Households by Maintainer Age,New
+P3YMTN85P,Maintainers 85 Or Older,Households by Maintainer Age,New
+P3YHTY1FHP,One-Family Households With Additional Persons,Households by Household Type,New
+P3YHTY1FHNP,One-Family Households Without Additional Persons,Households by Household Type,New
+P3YHTYMGFH,Multigenerational Family Households,Households by Household Type,New
+P3YMOTMNON,Multiple Non-Official Languages,Household Population by Mother Tongue,New
+P5YMTN7584,Maintainers 75 To 84,Households by Maintainer Age,New
+P5YMTN85P,Maintainers 85 Or Older,Households by Maintainer Age,New
+P5YHTY1FHP,One-Family Households With Additional Persons,Households by Household Type,New
+P5YHTY1FHNP,One-Family Households Without Additional Persons,Households by Household Type,New
+P5YHTYMGFH,Multigenerational Family Households,Households by Household Type,New
+P5YMOTMNON,Multiple Non-Official Languages,Household Population by Mother Tongue,New
+P0YMTN7584,Maintainers 75 To 84,Households by Maintainer Age,New
+P0YMTN85P,Maintainers 85 Or Older,Households by Maintainer Age,New
+P0YHTY1FHP,One-Family Households With Additional Persons,Households by Household Type,New
+P0YHTY1FHNP,One-Family Households Without Additional Persons,Households by Household Type,New
+P0YHTYMGFH,Multigenerational Family Households,Households by Household Type,New
+P0YMOTMNON,Multiple Non-Official Languages,Household Population by Mother Tongue,New
+EHYMTN75P,Maintainers 75 Or Older,Households by Maintainer Age,No Longer Available
+EHYCFSC1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSC2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSC3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYCFSM1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSM2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSM3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYCFSCL1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSCL2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSCL3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYCFSLP1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSLP2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSLP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYCFSFP1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSFP2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSFP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYCFSMP1C,1 Child,Census Families by Family Structure,No Longer Available
+EHYCFSMP2C,2 Children,Census Families by Family Structure,No Longer Available
+EHYCFSMP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+EHYHFSC1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSC2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSC3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSM1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSM2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSM3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSCL1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSCL2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSCL3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSLP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSLP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSLP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSFP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSFP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSFP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSMP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+EHYHFSMP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+EHYHFSMP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYMTN75P,Maintainers 75 Or Older,Households by Maintainer Age,No Longer Available
+ECYCFSC1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSC2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSC3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYCFSM1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSM2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSM3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYCFSCL1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSCL2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSCL3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYCFSLP1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSLP2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSLP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYCFSFP1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSFP2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSFP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYCFSMP1C,1 Child,Census Families by Family Structure,No Longer Available
+ECYCFSMP2C,2 Children,Census Families by Family Structure,No Longer Available
+ECYCFSMP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+ECYHFSC1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSC2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSC3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSM1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSM2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSM3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSCL1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSCL2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSCL3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSLP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSLP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSLP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSFP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSFP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSFP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSMP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+ECYHFSMP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+ECYHFSMP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+ECYPIM0105,2001 To 2005,Household Population by Period of Immigration,No Longer Available
+ECYPIM0610,2006 To 2010,Household Population by Period of Immigration,No Longer Available
+ECYPIM1116,2011 To 2016,Household Population by Period of Immigration,No Longer Available
+ECYPIM17CY,2017 To Present,Household Population by Period of Immigration,No Longer Available
+P3YMTN75P,Maintainers 75 Or Older,Households by Maintainer Age,No Longer Available
+P3YCFSC1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSC2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSC3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YCFSM1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSM2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSM3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YCFSCL1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSCL2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSCL3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YCFSLP1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSLP2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSLP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YCFSFP1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSFP2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSFP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YCFSMP1C,1 Child,Census Families by Family Structure,No Longer Available
+P3YCFSMP2C,2 Children,Census Families by Family Structure,No Longer Available
+P3YCFSMP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P3YHFSC1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSC2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSC3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSM1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSM2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSM3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSCL1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSCL2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSCL3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSLP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSLP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSLP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSFP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSFP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSFP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSMP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P3YHFSMP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P3YHFSMP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YMTN75P,Maintainers 75 Or Older,Households by Maintainer Age,No Longer Available
+P5YCFSC1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSC2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSC3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YCFSM1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSM2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSM3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YCFSCL1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSCL2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSCL3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YCFSLP1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSLP2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSLP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YCFSFP1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSFP2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSFP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YCFSMP1C,1 Child,Census Families by Family Structure,No Longer Available
+P5YCFSMP2C,2 Children,Census Families by Family Structure,No Longer Available
+P5YCFSMP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P5YHFSC1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSC2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSC3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSM1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSM2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSM3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSCL1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSCL2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSCL3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSLP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSLP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSLP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSFP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSFP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSFP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSMP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P5YHFSMP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P5YHFSMP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YMTN75P,Maintainers 75 Or Older,Households by Maintainer Age,No Longer Available
+P0YCFSC1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSC2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSC3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YCFSM1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSM2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSM3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YCFSCL1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSCL2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSCL3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YCFSLP1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSLP2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSLP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YCFSFP1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSFP2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSFP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YCFSMP1C,1 Child,Census Families by Family Structure,No Longer Available
+P0YCFSMP2C,2 Children,Census Families by Family Structure,No Longer Available
+P0YCFSMP3C,3 Or More Children,Census Families by Family Structure,No Longer Available
+P0YHFSC1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSC2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSC3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSM1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSM2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSM3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSCL1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSCL2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSCL3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSLP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSLP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSLP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSFP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSFP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSFP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSMP1C,1 Child,Census Family Households by Family Structure,No Longer Available
+P0YHFSMP2C,2 Children,Census Family Households by Family Structure,No Longer Available
+P0YHFSMP3C,3 Or More Children,Census Family Households by Family Structure,No Longer Available

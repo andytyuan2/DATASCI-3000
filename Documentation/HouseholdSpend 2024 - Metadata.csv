@@ -1,0 +1,466 @@
+Order,Variable,Description,Category,Hierarchy Level,Hierarchy Description,Variable Type,Root Formula,Type,Size,Part
+0,CODE,Code,Geography,1,Code,Incidence,,V_String,16,1
+0,GEO,Geographic Summarization Indicator,Geography,1,Geographic Summarization Indicator,Incidence,,V_String,16,1
+1,HSBASHHD,Total Households,Basics,1,Total Households,Incidence,[HSBASHHD],Int64,8,1
+2,HSHNIAGG,Household Income,Basics,1,Household Income,Consumption,[HSHNIAGG],Double,8,1
+3,HSAGDISPIN,Household Disposable Income,Basics,1,Household Disposable Income,Consumption,[HSAGDISPIN],Double,8,1
+4,HSAGDISCIN,Household Discretionary Income,Basics,1,Household Discretionary Income,Consumption,[HSAGDISCIN],Double,8,1
+5,HSTT001,Total expenditure,Household Expenditures (Category Summary),1,Total expenditure,Consumption,[HSTT001],Double,8,1
+6,HSTE001,Total current consumption and financial transfers,Household Expenditures (Category Summary),2,    Total current consumption and financial transfers,Consumption,[HSTT001],Double,8,1
+7,HSTX001,Income tax,Household Expenditures (Category Summary),3,        Income tax,Consumption,[HSTE001],Double,8,1
+8,HSTC001,Total current consumption,Household Expenditures (Category Summary),3,        Total current consumption,Consumption,[HSTE001],Double,8,1
+9,HSSH001S,Shelter,Household Expenditures (Category Summary),4,            Shelter,Consumption,[HSTC001],Double,8,1
+10,HSFD001S,Food,Household Expenditures (Category Summary),4,            Food,Consumption,[HSTC001],Double,8,1
+11,HSHO001S,Household operation,Household Expenditures (Category Summary),4,            Household operation,Consumption,[HSTC001],Double,8,1
+12,HSHC001S,Health care,Household Expenditures (Category Summary),4,            Health care,Consumption,[HSTC001],Double,8,1
+13,HSHF001S,Household furnishings and equipment,Household Expenditures (Category Summary),4,            Household furnishings and equipment,Consumption,[HSTC001],Double,8,1
+14,HSTR001S,Transportation,Household Expenditures (Category Summary),4,            Transportation,Consumption,[HSTC001],Double,8,1
+15,HSRE001S,Recreation,Household Expenditures (Category Summary),4,            Recreation,Consumption,[HSTC001],Double,8,1
+16,HSPC001S,Personal care,Household Expenditures (Category Summary),4,            Personal care,Consumption,[HSTC001],Double,8,1
+17,HSCL001S,Clothing,Household Expenditures (Category Summary),4,            Clothing,Consumption,[HSTC001],Double,8,1
+18,HSED002S,Education,Household Expenditures (Category Summary),4,            Education,Consumption,[HSTC001],Double,8,1
+19,HSRO001S,Reading materials and other printed matter,Household Expenditures (Category Summary),4,            Reading materials and other printed matter,Consumption,[HSTC001],Double,8,1
+20,HSTA001S,Tobacco products and alcoholic beverages,Household Expenditures (Category Summary),4,            Tobacco products and alcoholic beverages,Consumption,[HSTC001],Double,8,1
+21,HSGC001S,Games of chance,Household Expenditures (Category Summary),4,            Games of chance,Consumption,[HSTC001],Double,8,1
+22,HSME001S,Miscellaneous expenditures,Household Expenditures (Category Summary),4,            Miscellaneous expenditures,Consumption,[HSTC001],Double,8,1
+23,HSEP001S,Total personal insurance premiums and retirement/pension contributions,Household Expenditures (Category Summary),3,        Total personal insurance premiums and retirement/pension contributions,Consumption,[HSTE001],Double,8,1
+24,HSMG001S,"Total money gifts, contributions and support payments",Household Expenditures (Category Summary),3,"        Total money gifts, contributions and support payments",Consumption,[HSTE001],Double,8,1
+25,HSTE001ZBS,Total non-current consumption,Household Expenditures (Category Summary),2,    Total non-current consumption,Consumption,[HSTT001],Double,8,1
+26,HSWH002S,Improvements and alterations to owned principal residence,Household Expenditures (Category Summary),3,        Improvements and alterations to owned principal residence,Consumption,[HSTE001ZB],Double,8,1
+27,HSWH028S,Improvements and alterations to vacation homes,Household Expenditures (Category Summary),3,        Improvements and alterations to vacation homes,Consumption,[HSTE001ZB],Double,8,1
+28,HSWH040S,Net purchase price of owned residences,Household Expenditures (Category Summary),3,        Net purchase price of owned residences,Consumption,[HSTE001ZB],Double,8,1
+29,HSWH041S,Net purchase price of owned secondary residences,Household Expenditures (Category Summary),3,        Net purchase price of owned secondary residences,Consumption,[HSTE001ZB],Double,8,1
+30,HSWH042S,Net purchase price of other owned properties,Household Expenditures (Category Summary),3,        Net purchase price of other owned properties,Consumption,[HSTE001ZB],Double,8,1
+31,HSSH001,Shelter,Shelter,4,            Shelter,Consumption,[HSSH001],Double,8,1
+32,HSSH002,Principal accommodation,Shelter,5,                Principal accommodation,Consumption,[HSSH001],Double,8,1
+33,HSSH003,Rented living quarters,Shelter,6,                    Rented living quarters,Consumption,[HSSH001],Double,8,1
+34,HSSH004,Total expenditure for rent,Shelter,7,                        Total expenditure for rent,Consumption,[HSSH001],Double,8,1
+35,HSSH053,Rent,Shelter,8,                            Rent,Consumption,[HSSH001],Double,8,1
+36,HSSH054,Additional amounts paid to the landlord,Shelter,8,                            Additional amounts paid to the landlord,Consumption,[HSSH001],Double,8,1
+37,HSSH005,Tenants' repairs and improvements,Shelter,7,                        Tenants' repairs and improvements,Consumption,[HSSH001],Double,8,1
+38,HSSH006,Tenants' insurance premiums,Shelter,7,                        Tenants' insurance premiums,Consumption,[HSSH001],Double,8,1
+39,HSSH007,Parking at place of residence,Shelter,7,                        Parking at place of residence,Consumption,[HSSH001],Double,8,1
+40,HSSH010,Owned living quarters,Shelter,6,                    Owned living quarters,Consumption,[HSSH001],Double,8,1
+41,HSSH011,Regular mortgage payments,Shelter,7,                        Regular mortgage payments,Consumption,[HSSH001],Double,8,1
+42,HSSH014,Property taxes,Shelter,7,                        Property taxes,Consumption,[HSSH001],Double,8,1
+43,HSSH013,Condominium charges,Shelter,7,                        Condominium charges,Consumption,[HSSH001],Double,8,1
+44,HSSH015,Premiums for homeowners' insurance,Shelter,7,                        Premiums for homeowners' insurance,Consumption,[HSSH001],Double,8,1
+45,HSSH016,Other expenditures for owned living quarters,Shelter,7,                        Other expenditures for owned living quarters,Consumption,[HSSH001],Double,8,1
+46,HSSH017,Real estate commissions on homes sold,Shelter,8,                            Real estate commissions on homes sold,Consumption,[HSSH001],Double,8,1
+47,HSSH018,Legal fees related to the dwelling,Shelter,8,                            Legal fees related to the dwelling,Consumption,[HSSH001],Double,8,1
+48,HSSH019,"Premiums for mortgage, life and/or disability insurance",Shelter,8,"                            Premiums for mortgage, life and/or disability insurance",Consumption,[HSSH001],Double,8,1
+49,HSSH021,Registration & renewal fees and mortgage penalties,Shelter,8,                            Registration & renewal fees and mortgage penalties,Consumption,[HSSH001],Double,8,1
+50,HSSH020,Other expenses related to the dwelling,Shelter,8,                            Other expenses related to the dwelling,Consumption,[HSSH001],Double,8,1
+51,HSSH022,Land transfer taxes and land registration fees,Shelter,8,                            Land transfer taxes and land registration fees,Consumption,[HSSH001],Double,8,1
+52,HSSH012,Repairs and maintenance to owned principal residence,Shelter,7,                        Repairs and maintenance to owned principal residence,Consumption,[HSSH001],Double,8,1
+53,HSRM002A,Exterior painting or staining,Shelter,8,                            Exterior painting or staining,Consumption,[HSSH001],Double,8,1
+54,HSRM002B,Interior painting or wallpapering,Shelter,8,                            Interior painting or wallpapering,Consumption,[HSSH001],Double,8,1
+55,HSRM003A,Interior walls and ceilings,Shelter,8,                            Interior walls and ceilings,Consumption,[HSSH001],Double,8,1
+56,HSRM003B,Caulking and weather stripping,Shelter,8,                            Caulking and weather stripping,Consumption,[HSSH001],Double,8,1
+57,HSRM004,Insulation,Shelter,8,                            Insulation,Consumption,[HSSH001],Double,8,1
+58,HSRM005,"Fences, driveways, patios, swimming pools, hot tubs and ponds",Shelter,8,"                            Fences, driveways, patios, swimming pools, hot tubs and ponds",Consumption,[HSSH001],Double,8,1
+59,HSRM006,Roofs,Shelter,8,                            Roofs,Consumption,[HSSH001],Double,8,1
+60,HSRM007,Eavestroughing,Shelter,8,                            Eavestroughing,Consumption,[HSSH001],Double,8,1
+61,HSRM008M,"Exterior walls, siding, soffits, facia, chimneys and concrete basement floor",Shelter,8,"                            Exterior walls, siding, soffits, facia, chimneys and concrete basement floor",Consumption,[HSSH001],Double,8,1
+62,HSRM009A,Windows and exterior doors,Shelter,8,                            Windows and exterior doors,Consumption,[HSSH001],Double,8,1
+63,HSRM009B,Interior doors,Shelter,8,                            Interior doors,Consumption,[HSSH001],Double,8,1
+64,HSRM010,Hard surface flooring and wall-to-wall carpeting,Shelter,8,                            Hard surface flooring and wall-to-wall carpeting,Consumption,[HSSH001],Double,8,1
+65,HSRM011,Plumbing fixtures and equipment,Shelter,8,                            Plumbing fixtures and equipment,Consumption,[HSSH001],Double,8,1
+66,HSRM012,Septic systems and wells,Shelter,8,                            Septic systems and wells,Consumption,[HSSH001],Double,8,1
+67,HSRM013,Heating and/or air conditioning equipment,Shelter,8,                            Heating and/or air conditioning equipment,Consumption,[HSSH001],Double,8,1
+68,HSRM015M,Electrical fixtures and equipment and home security devices,Shelter,8,                            Electrical fixtures and equipment and home security devices,Consumption,[HSSH001],Double,8,1
+69,HSRM016,Other repairs and maintenance,Shelter,8,                            Other repairs and maintenance,Consumption,[HSSH001],Double,8,1
+70,HSSH012B,Repairs and maintenance to owned principal residence,Shelter,7,                        Repairs and maintenance to owned principal residence,Consumption,[HSSH001],Double,8,1
+71,HSOI020,Contract work or hired labour for repairs and maintenance,Shelter,8,                            Contract work or hired labour for repairs and maintenance,Consumption,[HSSH001],Double,8,1
+72,HSOI020Z,Non-contract work or hired labour for repairs and maintenance,Shelter,8,                            Non-contract work or hired labour for repairs and maintenance,Consumption,[HSSH001],Double,8,1
+73,HSSH030,"Water, fuel and electricity for principal accommodation",Shelter,6,"                    Water, fuel and electricity for principal accommodation",Consumption,[HSSH001],Double,8,1
+74,HSSH031,Water and sewage,Shelter,7,                        Water and sewage,Consumption,[HSSH001],Double,8,1
+75,HSSH031A,Water and sewage charges for owned principal residence,Shelter,8,                            Water and sewage charges for owned principal residence,Consumption,[HSSH001],Double,8,1
+76,HSSH031B,Water and sewage charges for rented principal residence,Shelter,8,                            Water and sewage charges for rented principal residence,Consumption,[HSSH001],Double,8,1
+77,HSSH032,Electricity,Shelter,7,                        Electricity,Consumption,[HSSH001],Double,8,1
+78,HSSH032A,Electricity charges for owned principal residence,Shelter,8,                            Electricity charges for owned principal residence,Consumption,[HSSH001],Double,8,1
+79,HSSH032B,Electricity charges for rented principal residence,Shelter,8,                            Electricity charges for rented principal residence,Consumption,[HSSH001],Double,8,1
+80,HSSH033,Natural gas,Shelter,7,                        Natural gas,Consumption,[HSSH001],Double,8,1
+81,HSSH033A,Natural gas charges for owned principal residence,Shelter,8,                            Natural gas charges for owned principal residence,Consumption,[HSSH001],Double,8,1
+82,HSSH033B,Natural gas charges for rented principal residence,Shelter,8,                            Natural gas charges for rented principal residence,Consumption,[HSSH001],Double,8,1
+83,HSSH034,Other fuel,Shelter,7,                        Other fuel,Consumption,[HSSH001],Double,8,1
+84,HSSH035,Heating oil,Shelter,8,                            Heating oil,Consumption,[HSSH001],Double,8,1
+85,HSSH035A,Heating oil charges for owned principal residence,Shelter,9,                                Heating oil charges for owned principal residence,Consumption,[HSSH001],Double,8,1
+86,HSSH035B,Heating oil charges for rented principal residence,Shelter,9,                                Heating oil charges for rented principal residence,Consumption,[HSSH001],Double,8,1
+87,HSSH036,Propane for heating and cooking,Shelter,8,                            Propane for heating and cooking,Consumption,[HSSH001],Double,8,1
+88,HSSH036A,Propane for heating and cooking for owned principal residence,Shelter,9,                                Propane for heating and cooking for owned principal residence,Consumption,[HSSH001],Double,8,1
+89,HSSH036B,Propane for heating and cooking for rented principal residence,Shelter,9,                                Propane for heating and cooking for rented principal residence,Consumption,[HSSH001],Double,8,1
+90,HSSH037,Wood and other fuel for heating and cooking,Shelter,8,                            Wood and other fuel for heating and cooking,Consumption,[HSSH001],Double,8,1
+91,HSSH037A,Wood and other fuel for heating and cooking for owned principal residence,Shelter,9,                                Wood and other fuel for heating and cooking for owned principal residence,Consumption,[HSSH001],Double,8,1
+92,HSSH037B,Wood and other fuel for heating and cooking for rented principal residence,Shelter,9,                                Wood and other fuel for heating and cooking for rented principal residence,Consumption,[HSSH001],Double,8,1
+93,HSSH040,Other accommodation,Shelter,5,                Other accommodation,Consumption,[HSSH001],Double,8,1
+94,HSSH041,Vacation homes or other secondary residences,Shelter,6,                    Vacation homes or other secondary residences,Consumption,[HSSH001],Double,8,1
+95,HSSH042,Mortgage paid on vacation homes or other secondary residences,Shelter,7,                        Mortgage paid on vacation homes or other secondary residences,Consumption,[HSSH001],Double,8,1
+96,HSSH043,Property taxes and sewage charges for owned vacation homes or other secondary residences,Shelter,7,                        Property taxes and sewage charges for owned vacation homes or other secondary residences,Consumption,[HSSH001],Double,8,1
+97,HSSH044,Property Insurance for owned vacation homes or other secondary residences,Shelter,7,                        Property Insurance for owned vacation homes or other secondary residences,Consumption,[HSSH001],Double,8,1
+98,HSSH045,"Electricity, water and fuel for owned vacation homes or other secondary residences",Shelter,7,"                        Electricity, water and fuel for owned vacation homes or other secondary residences",Consumption,[HSSH001],Double,8,1
+99,HSSH046,Other expenses associated with secondary residences,Shelter,7,                        Other expenses associated with secondary residences,Consumption,[HSSH001],Double,8,1
+100,HSSH046C,Repairs and maintenance for owned vacation homes or other secondary residences,Shelter,8,                            Repairs and maintenance for owned vacation homes or other secondary residences,Consumption,[HSSH001],Double,8,1
+101,HSSH046M,Real estate commissions paid for the sale and other expenses associated with vacation homes and other secondary residences,Shelter,8,                            Real estate commissions paid for the sale and other expenses associated with vacation homes and other secondary residences,Consumption,[HSSH001],Double,8,1
+102,HSSH047,Other owned properties,Shelter,6,                    Other owned properties,Consumption,[HSSH001],Double,8,1
+103,HSSH047A,Mortgage paid on other property,Shelter,7,                        Mortgage paid on other property,Consumption,[HSSH001],Double,8,1
+104,HSSH047C,Repairs and improvements to other property,Shelter,7,                        Repairs and improvements to other property,Consumption,[HSSH001],Double,8,1
+105,HSSH047M,Real estate commissions paid for the sale and other expenses associated with other owned property,Shelter,7,                        Real estate commissions paid for the sale and other expenses associated with other owned property,Consumption,[HSSH001],Double,8,1
+106,HSSH050,Accommodation away from home,Shelter,6,                    Accommodation away from home,Consumption,[HSSH001],Double,8,1
+107,HSSH051,Hotels and motels,Shelter,7,                        Hotels and motels,Consumption,[HSSH001],Double,8,1
+108,HSSH052,Other accommodation while away from home overnight or longer,Shelter,7,                        Other accommodation while away from home overnight or longer,Consumption,[HSSH001],Double,8,1
+109,HSFD001,Food,Food,4,            Food,Consumption,[HSFD001],Double,8,1
+110,HSFD003,Food purchased from stores,Food,5,                Food purchased from stores,Consumption,[HSFD001],Double,8,1
+111,HSFD990,Food purchased from restaurants,Food,5,                Food purchased from restaurants,Consumption,[HSFD001],Double,8,1
+112,HSFD991,Restaurant meals,Food,6,                    Restaurant meals,Consumption,[HSFD001],Double,8,1
+113,HSFD992,Restaurant dinners,Food,7,                        Restaurant dinners,Consumption,[HSFD001],Double,8,1
+114,HSFD993,Restaurant lunches,Food,7,                        Restaurant lunches,Consumption,[HSFD001],Double,8,1
+115,HSFD994,Restaurant breakfasts,Food,7,                        Restaurant breakfasts,Consumption,[HSFD001],Double,8,1
+116,HSFD995,Restaurant snacks and beverages,Food,6,                    Restaurant snacks and beverages,Consumption,[HSFD001],Double,8,1
+117,HSHO001,Household operation,Household Operation,4,            Household operation,Consumption,[HSHO001],Double,8,1
+118,HSHO002,"Housekeepers, cleaners, house-sitters",Household Operation,5,"                Housekeepers, cleaners, house-sitters",Consumption,[HSHO001],Double,8,1
+119,HSHO003,Pet expenses,Household Operation,5,                Pet expenses,Consumption,[HSHO001],Double,8,1
+120,HSHO004,Pet food,Household Operation,6,                    Pet food,Consumption,[HSHO001],Double,8,1
+121,HSHO005,Purchase of pets and related pet goods,Household Operation,6,                    Purchase of pets and related pet goods,Consumption,[HSHO001],Double,8,1
+122,HSHO006,Veterinarian and other services,Household Operation,6,                    Veterinarian and other services,Consumption,[HSHO001],Double,8,1
+123,HSHO010,Household cleaning supplies and equipment,Household Operation,5,                Household cleaning supplies and equipment,Consumption,[HSHO001],Double,8,1
+124,HSHO011,Detergent and other soaps,Household Operation,6,                    Detergent and other soaps,Consumption,[HSHO001],Double,8,1
+125,HSHO012,Other household cleaning supplies,Household Operation,6,                    Other household cleaning supplies,Consumption,[HSHO001],Double,8,1
+126,HSHO013,Cleaning equipment (non-electric),Household Operation,6,                    Cleaning equipment (non-electric),Consumption,[HSHO001],Double,8,1
+127,HSHO014,"Paper, plastic and foil supplies",Household Operation,5,"                Paper, plastic and foil supplies",Consumption,[HSHO001],Double,8,1
+128,HSHO015,Stationery (excluding school supplies),Household Operation,6,                    Stationery (excluding school supplies),Consumption,[HSHO001],Double,8,1
+129,HSHO016,Other paper supplies,Household Operation,6,                    Other paper supplies,Consumption,[HSHO001],Double,8,1
+130,HSHO017,Plastic and foil supplies,Household Operation,6,                    Plastic and foil supplies,Consumption,[HSHO001],Double,8,1
+131,HSHO018,Garden supplies and services,Household Operation,5,                Garden supplies and services,Consumption,[HSHO001],Double,8,1
+132,HSHO019,"Nursery and greenhouse stock (flowers, plants, seeds)",Household Operation,6,"                    Nursery and greenhouse stock (flowers, plants, seeds)",Consumption,[HSHO001],Double,8,1
+133,HSHO020,"Fertilizers, herbicides, insecticides, pesticides, soil and soil conditioners",Household Operation,6,"                    Fertilizers, herbicides, insecticides, pesticides, soil and soil conditioners",Consumption,[HSHO001],Double,8,1
+134,HSHO021,"Horticultural services, snow and garbage removal",Household Operation,6,"                    Horticultural services, snow and garbage removal",Consumption,[HSHO001],Double,8,1
+135,HSHO022,Other household supplies,Household Operation,5,                Other household supplies,Consumption,[HSHO001],Double,8,1
+136,HSCC001,Child care expenditures,Household Operation,5,                Child care expenditures,Consumption,[HSHO001],Double,8,1
+137,HSCC002,Child care outside the home,Household Operation,6,                    Child care outside the home,Consumption,[HSHO001],Double,8,1
+138,HSCC003,Day care centres,Household Operation,7,                        Day care centres,Consumption,[HSHO001],Double,8,1
+139,HSCC013,Other child care outside the home,Household Operation,7,                        Other child care outside the home,Consumption,[HSHO001],Double,8,1
+140,HSCC011,Child care offered in school,Household Operation,8,                            Child care offered in school,Consumption,[HSHO001],Double,8,1
+141,HSCC012,Child care offered in private households,Household Operation,8,                            Child care offered in private households,Consumption,[HSHO001],Double,8,1
+142,HSCC014,Child care in the home,Household Operation,6,                    Child care in the home,Consumption,[HSHO001],Double,8,1
+143,HSCS001,Communications,Household Operation,5,                Communications,Consumption,[HSHO001],Double,8,1
+144,HSCS003,"Purchase, installation and operation of telephones",Household Operation,6,"                    Purchase, installation and operation of telephones",Consumption,[HSHO001],Double,8,1
+145,HSCS004,Landline telephone services,Household Operation,7,                        Landline telephone services,Consumption,[HSHO001],Double,8,1
+146,HSCS005,Cell phone services,Household Operation,7,                        Cell phone services,Consumption,[HSHO001],Double,8,1
+147,HSCS011,Telephones and equipment,Household Operation,7,                        Telephones and equipment,Consumption,[HSHO001],Double,8,1
+148,HSCS012,Landline telephone equipment,Household Operation,8,                            Landline telephone equipment,Consumption,[HSHO001],Double,8,1
+149,HSCS013,Mobile telephone equipment,Household Operation,8,                            Mobile telephone equipment,Consumption,[HSHO001],Double,8,1
+150,HSCS007,Internet services,Household Operation,6,                    Internet services,Consumption,[HSHO001],Double,8,1
+151,HSCS008,"On-line services (e.g.: subscriptions to stock trading, genealogy databases)",Household Operation,6,"                    On-line services (e.g.: subscriptions to stock trading, genealogy databases)",Consumption,[HSHO001],Double,8,1
+152,HSCS010,"Postal, courier and other communication services",Household Operation,6,"                    Postal, courier and other communication services",Consumption,[HSHO001],Double,8,1
+153,HSHC001,Health care,Health Care,4,            Health care,Consumption,[HSHC001],Double,8,1
+154,HSHC002,Total direct costs to household for health care,Health Care,5,                Total direct costs to household for health care,Consumption,[HSHC001],Double,8,1
+155,HSHC003,Prescribed medicines and pharmaceutical products,Health Care,6,                    Prescribed medicines and pharmaceutical products,Consumption,[HSHC001],Double,8,1
+156,HSHC004,Non-prescribed medicines and pharmaceutical products,Health Care,6,                    Non-prescribed medicines and pharmaceutical products,Consumption,[HSHC001],Double,8,1
+157,HSHC004A,Health care supplies and equipment,Health Care,7,                        Health care supplies and equipment,Consumption,[HSHC001],Double,8,1
+158,HSHC004B,Other medicines and pharmaceutical products,Health Care,7,                        Other medicines and pharmaceutical products,Consumption,[HSHC001],Double,8,1
+159,HSHC005,Health care services,Health Care,6,                    Health care services,Consumption,[HSHC001],Double,8,1
+160,HSHC006,Health care practitioners,Health Care,7,                        Health care practitioners,Consumption,[HSHC001],Double,8,1
+161,HSHC006A,Health care practitioners in the home,Health Care,8,                            Health care practitioners in the home,Consumption,[HSHC001],Double,8,1
+162,HSHC006B,Other health care practitioners,Health Care,8,                            Other health care practitioners,Consumption,[HSHC001],Double,8,1
+163,HSHC007,Health care by general practitioners and specialists,Health Care,7,                        Health care by general practitioners and specialists,Consumption,[HSHC001],Double,8,1
+164,HSHC008,"Weight control programs, quit-smoking programs and other medical services",Health Care,7,"                        Weight control programs, quit-smoking programs and other medical services",Consumption,[HSHC001],Double,8,1
+165,HSHC009,"Hospital care, nursing homes, and other residential care facilities",Health Care,7,"                        Hospital care, nursing homes, and other residential care facilities",Consumption,[HSHC001],Double,8,1
+166,HSHC010,Total direct costs to household for eye care,Health Care,6,                    Total direct costs to household for eye care,Consumption,[HSHC001],Double,8,1
+167,HSHC012,Prescription eye wear,Health Care,7,                        Prescription eye wear,Consumption,[HSHC001],Double,8,1
+168,HSHC014,Eye-care services,Health Care,7,                        Eye-care services,Consumption,[HSHC001],Double,8,1
+169,HSHC027,Other eye care goods and non-prescription eyewear,Health Care,7,                        Other eye care goods and non-prescription eyewear,Consumption,[HSHC001],Double,8,1
+170,HSHC015,Dental services and orthodontic and periodontal procedures,Health Care,6,                    Dental services and orthodontic and periodontal procedures,Consumption,[HSHC001],Double,8,1
+171,HSHC022,Private health insurance plan premiums,Health Care,5,                Private health insurance plan premiums,Consumption,[HSHC001],Double,8,1
+172,HSHC023,Private health care plan premiums,Health Care,6,                    Private health care plan premiums,Consumption,[HSHC001],Double,8,1
+173,HSHC024,Dental plan premiums,Health Care,6,                    Dental plan premiums,Consumption,[HSHC001],Double,8,1
+174,HSHC025,Premiums for accident and disability insurance,Health Care,6,                    Premiums for accident and disability insurance,Consumption,[HSHC001],Double,8,1
+175,HSHF001,Household furnishings and equipment,Household Furnishings and Equipment,4,            Household furnishings and equipment,Consumption,[HSHF001],Double,8,1
+176,HSHF002,Household furnishings,Household Furnishings and Equipment,5,                Household furnishings,Consumption,[HSHF001],Double,8,1
+177,HSHF003,Furniture for indoor or outdoor use,Household Furnishings and Equipment,6,                    Furniture for indoor or outdoor use,Consumption,[HSHF001],Double,8,1
+178,HSHF004,"Rugs, mats and under padding",Household Furnishings and Equipment,6,"                    Rugs, mats and under padding",Consumption,[HSHF001],Double,8,1
+179,HSHF005,"Art, antiques and decorative ware",Household Furnishings and Equipment,6,"                    Art, antiques and decorative ware",Consumption,[HSHF001],Double,8,1
+180,HSHF005A,"Works of art, carvings and other decorative ware",Household Furnishings and Equipment,7,"                        Works of art, carvings and other decorative ware",Consumption,[HSHF001],Double,8,1
+181,HSHF005B,Antiques,Household Furnishings and Equipment,7,                        Antiques,Consumption,[HSHF001],Double,8,1
+182,HSHF006,Linens,Household Furnishings and Equipment,6,                    Linens,Consumption,[HSHF001],Double,8,1
+183,HSHF008,"Other household furnishings (curtains, mirrors and picture frames)",Household Furnishings and Equipment,6,"                    Other household furnishings (curtains, mirrors and picture frames)",Consumption,[HSHF001],Double,8,1
+184,HSHE001,Household equipment,Household Furnishings and Equipment,5,                Household equipment,Consumption,[HSHF001],Double,8,1
+185,HSHE002,Household appliances,Household Furnishings and Equipment,6,                    Household appliances,Consumption,[HSHF001],Double,8,1
+186,HSHE003,Refrigerators and freezers,Household Furnishings and Equipment,7,                        Refrigerators and freezers,Consumption,[HSHF001],Double,8,1
+187,HSHE004,Microwave ovens,Household Furnishings and Equipment,7,                        Microwave ovens,Consumption,[HSHF001],Double,8,1
+188,HSHE005,Cooking appliances,Household Furnishings and Equipment,7,                        Cooking appliances,Consumption,[HSHF001],Double,8,1
+189,HSHE006,Washers and dryers,Household Furnishings and Equipment,7,                        Washers and dryers,Consumption,[HSHF001],Double,8,1
+190,HSHE007,Dishwashers,Household Furnishings and Equipment,7,                        Dishwashers,Consumption,[HSHF001],Double,8,1
+191,HSHE009,Other electric equipment and appliances (including parts),Household Furnishings and Equipment,7,                        Other electric equipment and appliances (including parts),Consumption,[HSHF001],Double,8,1
+192,HSHE008,"Room air conditioners, portable humidifiers and dehumidifiers",Household Furnishings and Equipment,7,"                        Room air conditioners, portable humidifiers and dehumidifiers",Consumption,[HSHF001],Double,8,1
+193,HSHE010,Other household equipment,Household Furnishings and Equipment,6,                    Other household equipment,Consumption,[HSHF001],Double,8,1
+194,HSHE011,Home and workshop tools and equipment,Household Furnishings and Equipment,7,                        Home and workshop tools and equipment,Consumption,[HSHF001],Double,8,1
+195,HSHE011A,Hardware,Household Furnishings and Equipment,8,                            Hardware,Consumption,[HSHF001],Double,8,1
+196,HSHE011B,Other tools,Household Furnishings and Equipment,8,                            Other tools,Consumption,[HSHF001],Double,8,1
+197,HSHE031,Power tools and equipment,Household Furnishings and Equipment,8,                            Power tools and equipment,Consumption,[HSHF001],Double,8,1
+198,HSHE012,"Lawn, garden and snow-removal equipment and tools",Household Furnishings and Equipment,7,"                        Lawn, garden and snow-removal equipment and tools",Consumption,[HSHF001],Double,8,1
+199,HSHE012M,"Parts and accessories for garden tools and other equipment, tools, accessories and parts",Household Furnishings and Equipment,8,"                            Parts and accessories for garden tools and other equipment, tools, accessories and parts",Consumption,[HSHF001],Double,8,1
+200,HSHE032,"Power lawn, garden and snow removal equipment",Household Furnishings and Equipment,8,"                            Power lawn, garden and snow removal equipment",Consumption,[HSHF001],Double,8,1
+201,HSHE013,Non-electric kitchen and cooking equipment,Household Furnishings and Equipment,7,                        Non-electric kitchen and cooking equipment,Consumption,[HSHF001],Double,8,1
+202,HSHE015,"Other household equipment, parts and accessories",Household Furnishings and Equipment,7,"                        Other household equipment, parts and accessories",Consumption,[HSHF001],Double,8,1
+203,HSHE016,Maintenance and repairs of household furnishings and equipment,Household Furnishings and Equipment,5,                Maintenance and repairs of household furnishings and equipment,Consumption,[HSHF001],Double,8,1
+204,HSHE020,Services related to household furnishings and equipment,Household Furnishings and Equipment,5,                Services related to household furnishings and equipment,Consumption,[HSHF001],Double,8,1
+205,HSHE021,Rental of heating equipment,Household Furnishings and Equipment,6,                    Rental of heating equipment,Consumption,[HSHF001],Double,8,1
+206,HSHE023,Home security services,Household Furnishings and Equipment,6,                    Home security services,Consumption,[HSHF001],Double,8,1
+207,HSTR001,Transportation,Transportation,4,            Transportation,Consumption,[HSTR001],Double,8,1
+208,HSTR002,Private transportation,Transportation,5,                Private transportation,Consumption,[HSTR001],Double,8,1
+209,HSTR003,"Private use automobiles, vans and trucks",Transportation,6,"                    Private use automobiles, vans and trucks",Consumption,[HSTR001],Double,8,1
+210,HSTR004,"Purchases of automobiles, trucks and vans",Transportation,7,"                        Purchases of automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+211,HSTR005,Purchases of automobiles,Transportation,8,                            Purchases of automobiles,Consumption,[HSTR001],Double,8,1
+212,HSTR006,"Purchases of vans, and mini-vans",Transportation,8,"                            Purchases of vans, and mini-vans",Consumption,[HSTR001],Double,8,1
+213,HSTR007,Purchases of trucks and sports utility vehicles,Transportation,8,                            Purchases of trucks and sports utility vehicles,Consumption,[HSTR001],Double,8,1
+214,HSTR008,"Accessories for automobiles, vans and trucks",Transportation,7,"                        Accessories for automobiles, vans and trucks",Consumption,[HSTR001],Double,8,1
+215,HSTR009,Car seats or booster seats for children,Transportation,8,                            Car seats or booster seats for children,Consumption,[HSTR001],Double,8,1
+216,HSTR058,"Accessories for automobiles, vans and trucks excluding car/booster seats",Transportation,8,"                            Accessories for automobiles, vans and trucks excluding car/booster seats",Consumption,[HSTR001],Double,8,1
+217,HSTR010,"Regular and other leasing fees for automobiles, trucks and vans",Transportation,7,"                        Regular and other leasing fees for automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+218,HSTR011,"Regular leasing fees for automobiles, trucks and vans",Transportation,8,"                            Regular leasing fees for automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+219,HSTR012,Regular fees for leased automobiles,Transportation,9,                                Regular fees for leased automobiles,Consumption,[HSTR001],Double,8,1
+220,HSTR014M,Regular fees for leased trucks and vans,Transportation,9,                                Regular fees for leased trucks and vans,Consumption,[HSTR001],Double,8,1
+221,HSTR015,Other leasing cost for vehicles,Transportation,8,                            Other leasing cost for vehicles,Consumption,[HSTR001],Double,8,1
+222,HSTR020,Total expenditure for rented vehicles,Transportation,6,                    Total expenditure for rented vehicles,Consumption,[HSTR001],Double,8,1
+223,HSTR030,"Operation of owned and leased automobiles, trucks and vans",Transportation,6,"                    Operation of owned and leased automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+224,HSTR031,"Total vehicle registration fees for automobiles, trucks and vans",Transportation,7,"                        Total vehicle registration fees for automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+225,HSTR032,"Vehicle insurance premiums for automobiles, trucks and vans",Transportation,7,"                        Vehicle insurance premiums for automobiles, trucks and vans",Consumption,[HSTR001],Double,8,1
+226,HSTR033,"Tires, batteries, and other parts and supplies for vehicles",Transportation,7,"                        Tires, batteries, and other parts and supplies for vehicles",Consumption,[HSTR001],Double,8,1
+227,HSTR034,Maintenance and repairs of vehicles,Transportation,7,                        Maintenance and repairs of vehicles,Consumption,[HSTR001],Double,8,1
+228,HSTR035,Security and communication services for vehicles,Transportation,7,                        Security and communication services for vehicles,Consumption,[HSTR001],Double,8,1
+229,HSTR036,Gas and other fuels (all vehicles and tools),Transportation,7,                        Gas and other fuels (all vehicles and tools),Consumption,[HSTR001],Double,8,1
+230,HSTR037,"Other automobile, van and truck operation services",Transportation,7,"                        Other automobile, van and truck operation services",Consumption,[HSTR001],Double,8,1
+231,HSTR038,"Parking costs at work, at school, park-ride and parking meters",Transportation,7,"                        Parking costs at work, at school, park-ride and parking meters",Consumption,[HSTR001],Double,8,1
+232,HSTR039,"Drivers' licences and tests, and driving lessons",Transportation,7,"                        Drivers' licences and tests, and driving lessons",Consumption,[HSTR001],Double,8,1
+233,HSTR040,Drivers' licences and tests,Transportation,8,                            Drivers' licences and tests,Consumption,[HSTR001],Double,8,1
+234,HSTR041,Driving lessons,Transportation,8,                            Driving lessons,Consumption,[HSTR001],Double,8,1
+235,HSTR050,Public transportation,Transportation,5,                Public transportation,Consumption,[HSTR001],Double,8,1
+236,HSTR051,"Bus, subway, street car and commuter train",Transportation,6,"                    Bus, subway, street car and commuter train",Consumption,[HSTR001],Double,8,1
+237,HSTR052,Transportation by taxi,Transportation,6,                    Transportation by taxi,Consumption,[HSTR001],Double,8,1
+238,HSTR053,Other local passenger transportation services,Transportation,6,                    Other local passenger transportation services,Consumption,[HSTR001],Double,8,1
+239,HSTR054,Transportation by airplane,Transportation,6,                    Transportation by airplane,Consumption,[HSTR001],Double,8,1
+240,HSTR055,Transportation by highway bus,Transportation,6,                    Transportation by highway bus,Consumption,[HSTR001],Double,8,1
+241,HSTR056,Other inter-city passenger transportation services,Transportation,6,                    Other inter-city passenger transportation services,Consumption,[HSTR001],Double,8,1
+242,HSTR056A,All other inter-city passenger transportation services,Transportation,7,                        All other inter-city passenger transportation services,Consumption,[HSTR001],Double,8,1
+243,HSTR056B,Transportation by train,Transportation,7,                        Transportation by train,Consumption,[HSTR001],Double,8,1
+244,HSTR057,"Household moving, storage services and delivery services",Transportation,6,"                    Household moving, storage services and delivery services",Consumption,[HSTR001],Double,8,1
+245,HSRE001,Recreation,Recreation,4,            Recreation,Consumption,[HSRE001],Double,8,2
+246,HSRE002,Recreation equipment and associated services,Recreation,5,                Recreation equipment and associated services,Consumption,[HSRE001],Double,8,2
+247,HSRE005M,Children's toys and outdoor play equipment and accessories,Recreation,6,                    Children's toys and outdoor play equipment and accessories,Consumption,[HSRE001],Double,8,2
+248,HSRE006,Video game systems and accessories (excluding for computers),Recreation,6,                    Video game systems and accessories (excluding for computers),Consumption,[HSRE001],Double,8,2
+249,HSRE007,Arts and craft materials,Recreation,6,                    Arts and craft materials,Consumption,[HSRE001],Double,8,2
+250,HSRE008,Sports and athletic equipment,Recreation,6,                    Sports and athletic equipment,Consumption,[HSRE001],Double,8,2
+251,HSRE010,Computer equipment and supplies,Recreation,6,                    Computer equipment and supplies,Consumption,[HSRE001],Double,8,2
+252,HSRE011,Computer hardware,Recreation,7,                        Computer hardware,Consumption,[HSRE001],Double,8,2
+253,HSRE012,Computer software,Recreation,7,                        Computer software,Consumption,[HSRE001],Double,8,2
+254,HSRE015,Computer supplies and other equipment,Recreation,7,                        Computer supplies and other equipment,Consumption,[HSRE001],Double,8,2
+255,HSRE110,Tablet computers,Recreation,7,                        Tablet computers,Consumption,[HSRE001],Double,8,2
+256,HSRE016,Photographic goods and services,Recreation,6,                    Photographic goods and services,Consumption,[HSRE001],Double,8,2
+257,HSRE017,Cameras and accessories,Recreation,7,                        Cameras and accessories,Consumption,[HSRE001],Double,8,2
+258,HSRE020,Photographers' services and other photographic services,Recreation,7,                        Photographers' services and other photographic services,Consumption,[HSRE001],Double,8,2
+259,HSRE022,Collectors' items,Recreation,6,                    Collectors' items,Consumption,[HSRE001],Double,8,2
+260,HSRE026,Other recreational equipment and related services,Recreation,6,                    Other recreational equipment and related services,Consumption,[HSRE001],Double,8,2
+261,HSRE021,"Musical instruments, parts and accessories",Recreation,7,"                        Musical instruments, parts and accessories",Consumption,[HSRE001],Double,8,2
+262,HSRE023,"Camping, picnic equipment and accessories (excluding BBQs)",Recreation,7,"                        Camping, picnic equipment and accessories (excluding BBQs)",Consumption,[HSRE001],Double,8,2
+263,HSRE024,Supplies and parts for recreational equipment,Recreation,7,                        Supplies and parts for recreational equipment,Consumption,[HSRE001],Double,8,2
+264,HSRE040,Home entertainment equipment and services,Recreation,5,                Home entertainment equipment and services,Consumption,[HSRE001],Double,8,2
+265,HSRE041,Home entertainment equipment,Recreation,6,                    Home entertainment equipment,Consumption,[HSRE001],Double,8,2
+266,HSRE042,Audio equipment,Recreation,7,                        Audio equipment,Consumption,[HSRE001],Double,8,2
+267,HSRE043,Portable audio equipment,Recreation,8,                            Portable audio equipment,Consumption,[HSRE001],Double,8,2
+268,HSRE044,Non-portable audio equipment,Recreation,8,                            Non-portable audio equipment,Consumption,[HSRE001],Double,8,2
+269,HSRE045,Video equipment,Recreation,7,                        Video equipment,Consumption,[HSRE001],Double,8,2
+270,HSRE046,Blu-ray players,Recreation,8,                            Blu-ray players,Consumption,[HSRE001],Double,8,2
+271,HSRE047,DVD players,Recreation,8,                            DVD players,Consumption,[HSRE001],Double,8,2
+272,HSRE048,"TVs, VCRs, video cameras, other TV/video components",Recreation,8,"                            TVs, VCRs, video cameras, other TV/video components",Consumption,[HSRE001],Double,8,2
+273,HSRE049,Home theatre systems,Recreation,7,                        Home theatre systems,Consumption,[HSRE001],Double,8,2
+274,HSRE076,"Pre-recorded media, downloads and audio/video media",Recreation,7,"                        Pre-recorded media, downloads and audio/video media",Consumption,[HSRE001],Double,8,2
+275,HSRE050,"Pre-recorded audio and video cassette tapes, CDs and DVDs",Recreation,8,"                            Pre-recorded audio and video cassette tapes, CDs and DVDs",Consumption,[HSRE001],Double,8,2
+276,HSRE051M,"Blank audio and video tapes, CDs, DVDs and iTunes and other music downloads",Recreation,8,"                            Blank audio and video tapes, CDs, DVDs and iTunes and other music downloads",Consumption,[HSRE001],Double,8,2
+277,HSRE052,Home entertainment services,Recreation,6,                    Home entertainment services,Consumption,[HSRE001],Double,8,2
+278,HSRE060,Recreation services,Recreation,5,                Recreation services,Consumption,[HSRE001],Double,8,2
+279,HSRE061,Entertainment,Recreation,6,                    Entertainment,Consumption,[HSRE001],Double,8,2
+280,HSRE062,Movie theatres,Recreation,7,                        Movie theatres,Consumption,[HSRE001],Double,8,2
+281,HSRE063,Live sporting and performing arts events,Recreation,7,                        Live sporting and performing arts events,Consumption,[HSRE001],Double,8,2
+282,HSRE066,"Other admission fees (e.g. museums, zoos)",Recreation,7,"                        Other admission fees (e.g. museums, zoos)",Consumption,[HSRE001],Double,8,2
+283,HSRE067,Cablevision and satellite services,Recreation,7,                        Cablevision and satellite services,Consumption,[HSRE001],Double,8,2
+284,HSRE070,Use of recreation facilities,Recreation,6,                    Use of recreation facilities,Consumption,[HSRE001],Double,8,2
+285,HSRE071,"Fees for sports, sports and recreation facilities, and health clubs",Recreation,7,"                        Fees for sports, sports and recreation facilities, and health clubs",Consumption,[HSRE001],Double,8,2
+286,HSRE073,Children's camps,Recreation,7,                        Children's camps,Consumption,[HSRE001],Double,8,2
+287,HSRE074,Package trips,Recreation,6,                    Package trips,Consumption,[HSRE001],Double,8,2
+288,HSRE078,Other recreational activities and services,Recreation,6,                    Other recreational activities and services,Consumption,[HSRE001],Double,8,2
+289,HSRV001,Recreation vehicles and associated services,Recreation,5,                Recreation vehicles and associated services,Consumption,[HSRE001],Double,8,2
+290,HSRV002,Purchase of recreational vehicles,Recreation,6,                    Purchase of recreational vehicles,Consumption,[HSRE001],Double,8,2
+291,HSRV003,Purchase of motorcycles and snowmobiles,Recreation,7,                        Purchase of motorcycles and snowmobiles,Consumption,[HSRE001],Double,8,2
+292,HSRV001A,Motorcycles,Recreation,8,                            Motorcycles,Consumption,[HSRE001],Double,8,2
+293,HSRV001B,Snowmobiles,Recreation,8,                            Snowmobiles,Consumption,[HSRE001],Double,8,2
+294,HSRV004,Purchase of all-terrain vehicles (ATVs),Recreation,7,                        Purchase of all-terrain vehicles (ATVs),Consumption,[HSRE001],Double,8,2
+295,HSRV005,Purchase of other recreational vehicles,Recreation,7,                        Purchase of other recreational vehicles,Consumption,[HSRE001],Double,8,2
+296,HSRV001D,Travel trailers,Recreation,8,                            Travel trailers,Consumption,[HSRE001],Double,8,2
+297,HSRV001M1,Non-motorized watercrafts and Motorized watercrafts,Recreation,8,                            Non-motorized watercrafts and Motorized watercrafts,Consumption,[HSRE001],Double,8,2
+298,HSRV001M2,"Tent trailers, travel trailers, truck campers, motorhomes, utility trailers and other types of recreational vehicles",Recreation,8,"                            Tent trailers, travel trailers, truck campers, motorhomes, utility trailers and other types of recreational vehicles",Consumption,[HSRE001],Double,8,2
+299,HSRV006,"Bicycles, parts and accessories",Recreation,7,"                        Bicycles, parts and accessories",Consumption,[HSRE001],Double,8,2
+300,HSRV010,Operation of recreational vehicles,Recreation,6,                    Operation of recreational vehicles,Consumption,[HSRE001],Double,8,2
+301,HSRV011,Insurance premiums for recreational vehicles,Recreation,7,                        Insurance premiums for recreational vehicles,Consumption,[HSRE001],Double,8,2
+302,HSRV012,Registration fees and licenses for recreational vehicles,Recreation,7,                        Registration fees and licenses for recreational vehicles,Consumption,[HSRE001],Double,8,2
+303,HSRV016,"Parking, airport fees; boat storage and harbour dues",Recreation,7,"                        Parking, airport fees; boat storage and harbour dues",Consumption,[HSRE001],Double,8,2
+304,HSRV013,Rented and leased recreational vehicles,Recreation,7,                        Rented and leased recreational vehicles,Consumption,[HSRE001],Double,8,2
+305,HSRV015M,Supplies and parts for recreational vehicles and other expenses for operation of recreational vehicles,Recreation,7,                        Supplies and parts for recreational vehicles and other expenses for operation of recreational vehicles,Consumption,[HSRE001],Double,8,2
+306,HSPC001,Personal care,Personal Care,4,            Personal care,Consumption,[HSPC001],Double,8,2
+307,HSPC002,Personal care products,Personal Care,5,                Personal care products,Consumption,[HSPC001],Double,8,2
+308,HSPC003,Hair care products,Personal Care,6,                    Hair care products,Consumption,[HSPC001],Double,8,2
+309,HSPC004,"Makeup, skin care, manicure and fragrance products",Personal Care,6,"                    Makeup, skin care, manicure and fragrance products",Consumption,[HSPC001],Double,8,2
+310,HSPC004A,"Makeup, skin care and manicure products",Personal Care,7,"                        Makeup, skin care and manicure products",Consumption,[HSPC001],Double,8,2
+311,HSPC004B,Fragrance products,Personal Care,7,                        Fragrance products,Consumption,[HSPC001],Double,8,2
+312,HSPC005,Personal deodorants,Personal Care,6,                    Personal deodorants,Consumption,[HSPC001],Double,8,2
+313,HSPC006,Body soaps,Personal Care,6,                    Body soaps,Consumption,[HSPC001],Double,8,2
+314,HSPC007,Oral hygiene products,Personal Care,6,                    Oral hygiene products,Consumption,[HSPC001],Double,8,2
+315,HSPC008,Disposable diapers,Personal Care,6,                    Disposable diapers,Consumption,[HSPC001],Double,8,2
+316,HSPC030,Other personal care supplies and equipment,Personal Care,6,                    Other personal care supplies and equipment,Consumption,[HSPC001],Double,8,2
+317,HSPC009,Electric hair-styling and personal care appliances,Personal Care,7,                        Electric hair-styling and personal care appliances,Consumption,[HSPC001],Double,8,2
+318,HSPC011,Feminine hygiene product,Personal Care,7,                        Feminine hygiene product,Consumption,[HSPC001],Double,8,2
+319,HSPC012,All other personal care supplies and equipment,Personal Care,7,                        All other personal care supplies and equipment,Consumption,[HSPC001],Double,8,2
+320,HSPC020,Personal care services,Personal Care,5,                Personal care services,Consumption,[HSPC001],Double,8,2
+321,HSPC021,Hair grooming services,Personal Care,6,                    Hair grooming services,Consumption,[HSPC001],Double,8,2
+322,HSPC023,Other personal care services,Personal Care,6,                    Other personal care services,Consumption,[HSPC001],Double,8,2
+323,HSCL001,Clothing,Clothing,4,            Clothing,Consumption,[HSCL001],Double,8,2
+324,HSCF001,Women's and girls' clothing (4 years and over),Clothing,5,                Women's and girls' clothing (4 years and over),Consumption,[HSCL001],Double,8,2
+325,HSCF101,Women's and Girls' wear (4 to 13 years old),Clothing,6,                    Women's and Girls' wear (4 to 13 years old),Consumption,[HSCL001],Double,8,2
+326,HSCF001G,Girls (aged 4 to 14): Clothing,Clothing,7,                        Girls (aged 4 to 14): Clothing,Consumption,[HSCL001],Double,8,2
+327,HSCF001H,Girls (aged 4 to 14): Athletic footwear,Clothing,7,                        Girls (aged 4 to 14): Athletic footwear,Consumption,[HSCL001],Double,8,2
+328,HSCF001I,Girls (aged 4 to 14): Other footwear,Clothing,7,                        Girls (aged 4 to 14): Other footwear,Consumption,[HSCL001],Double,8,2
+329,HSCF001J,Girls (aged 4 to 14): Accessories,Clothing,7,                        Girls (aged 4 to 14): Accessories,Consumption,[HSCL001],Double,8,2
+330,HSCF001M,Girls (aged 4 to 14): Watches and Jewellery,Clothing,7,                        Girls (aged 4 to 14): Watches and Jewellery,Consumption,[HSCL001],Double,8,2
+331,HSCF201,Women's and Girls' wear (14 years old and over),Clothing,6,                    Women's and Girls' wear (14 years old and over),Consumption,[HSCL001],Double,8,2
+332,HSCF001A,Women (aged 15 and over): Clothing,Clothing,7,                        Women (aged 15 and over): Clothing,Consumption,[HSCL001],Double,8,2
+333,HSCF001B,Women (aged 15 and over): Athletic footwear,Clothing,7,                        Women (aged 15 and over): Athletic footwear,Consumption,[HSCL001],Double,8,2
+334,HSCF001C,Women (aged 15 and over): Other footwear,Clothing,7,                        Women (aged 15 and over): Other footwear,Consumption,[HSCL001],Double,8,2
+335,HSCF001D,Women (aged 15 and over): Accessories,Clothing,7,                        Women (aged 15 and over): Accessories,Consumption,[HSCL001],Double,8,2
+336,HSCF001E,Women (aged 15 and over): Watches,Clothing,7,                        Women (aged 15 and over): Watches,Consumption,[HSCL001],Double,8,2
+337,HSCF001F,Women (aged 15 and over): Jewellery,Clothing,7,                        Women (aged 15 and over): Jewellery,Consumption,[HSCL001],Double,8,2
+338,HSCM001,Men's and boys' clothing (4 years and over),Clothing,5,                Men's and boys' clothing (4 years and over),Consumption,[HSCL001],Double,8,2
+339,HSCM101,Men's and Boys' wear (4 to 13 years old),Clothing,6,                    Men's and Boys' wear (4 to 13 years old),Consumption,[HSCL001],Double,8,2
+340,HSCM001G,Boys (aged 4 to 14): Clothing,Clothing,7,                        Boys (aged 4 to 14): Clothing,Consumption,[HSCL001],Double,8,2
+341,HSCM001H,Boys (aged 4 to 14): Athletic footwear,Clothing,7,                        Boys (aged 4 to 14): Athletic footwear,Consumption,[HSCL001],Double,8,2
+342,HSCM001I,Boys (aged 4 to 14): Other footwear,Clothing,7,                        Boys (aged 4 to 14): Other footwear,Consumption,[HSCL001],Double,8,2
+343,HSCM001J,Boys (aged 4 to 14): Accessories,Clothing,7,                        Boys (aged 4 to 14): Accessories,Consumption,[HSCL001],Double,8,2
+344,HSCM001M,Boys (aged 4 to 14): Watches and Jewellery,Clothing,7,                        Boys (aged 4 to 14): Watches and Jewellery,Consumption,[HSCL001],Double,8,2
+345,HSCM201,Men's and Boys' wear (14 years old and over),Clothing,6,                    Men's and Boys' wear (14 years old and over),Consumption,[HSCL001],Double,8,2
+346,HSCM001A,Men (aged 15 and over): Clothing,Clothing,7,                        Men (aged 15 and over): Clothing,Consumption,[HSCL001],Double,8,2
+347,HSCM001B,Men (aged 15 and over): Athletic footwear,Clothing,7,                        Men (aged 15 and over): Athletic footwear,Consumption,[HSCL001],Double,8,2
+348,HSCM001C,Men (aged 15 and over): Other footwear,Clothing,7,                        Men (aged 15 and over): Other footwear,Consumption,[HSCL001],Double,8,2
+349,HSCM001D,Men (aged 15 and over): Accessories,Clothing,7,                        Men (aged 15 and over): Accessories,Consumption,[HSCL001],Double,8,2
+350,HSCM001E,Men (aged 15 and over): Watches,Clothing,7,                        Men (aged 15 and over): Watches,Consumption,[HSCL001],Double,8,2
+351,HSCM001F,Men (aged 15 and over): Jewellery,Clothing,7,                        Men (aged 15 and over): Jewellery,Consumption,[HSCL001],Double,8,2
+352,HSCI001,Children's wear (under 4 years),Clothing,5,                Children's wear (under 4 years),Consumption,[HSCL001],Double,8,2
+353,HSCI002,Children's clothing (under 4 years old),Clothing,6,                    Children's clothing (under 4 years old),Consumption,[HSCL001],Double,8,2
+354,HSCI004,Children's footwear (under 4 years old),Clothing,6,                    Children's footwear (under 4 years old),Consumption,[HSCL001],Double,8,2
+355,HSCT010,Clothing gifts to non-household members,Clothing,5,                Clothing gifts to non-household members,Consumption,[HSCL001],Double,8,2
+356,HSCT011,Gifts of footwear for non-household members (aged 12 and under),Clothing,6,                    Gifts of footwear for non-household members (aged 12 and under),Consumption,[HSCL001],Double,8,2
+357,HSCT012,Gifts of footwear for non-household members (aged 13 and over),Clothing,6,                    Gifts of footwear for non-household members (aged 13 and over),Consumption,[HSCL001],Double,8,2
+358,HSCT013,"Gifts of clothing, accessories or jewellery for non-household members",Clothing,6,"                    Gifts of clothing, accessories or jewellery for non-household members",Consumption,[HSCL001],Double,8,2
+359,HSCL007,"Clothing fabric, yarn, thread, and other notions",Clothing,5,"                Clothing fabric, yarn, thread, and other notions",Consumption,[HSCL001],Double,8,2
+360,HSCL010,Clothing services,Clothing,5,                Clothing services,Consumption,[HSCL001],Double,8,2
+361,HSCL011,Laundry and dry-cleaning services,Clothing,6,                    Laundry and dry-cleaning services,Consumption,[HSCL001],Double,8,2
+362,HSCL012,Laundromats and self-service dry cleaning,Clothing,6,                    Laundromats and self-service dry cleaning,Consumption,[HSCL001],Double,8,2
+363,HSCL013,"Clothing rental, tailoring, alteration and other services",Clothing,6,"                    Clothing rental, tailoring, alteration and other services",Consumption,[HSCL001],Double,8,2
+364,HSED002,Education,Education,4,            Education,Consumption,[HSED002],Double,8,2
+365,HSED003,Total tuition fees,Education,5,                Total tuition fees,Consumption,[HSED002],Double,8,2
+366,HSED004,"Tuition fees for kindergarten, elementary and secondary schools",Education,6,"                    Tuition fees for kindergarten, elementary and secondary schools",Consumption,[HSED002],Double,8,2
+367,HSED005,Tuition fees for university,Education,6,                    Tuition fees for university,Consumption,[HSED002],Double,8,2
+368,HSED006,Tuition fees for other post-secondary education,Education,6,                    Tuition fees for other post-secondary education,Consumption,[HSED002],Double,8,2
+369,HSED007,Other educational service expenditures,Education,6,                    Other educational service expenditures,Consumption,[HSED002],Double,8,2
+370,HSED008,Other courses and lessons,Education,6,                    Other courses and lessons,Consumption,[HSED002],Double,8,2
+371,HSED030,Textbooks and school supplies,Education,5,                Textbooks and school supplies,Consumption,[HSED002],Double,8,2
+372,HSED010,School supplies,Education,6,                    School supplies,Consumption,[HSED002],Double,8,2
+373,HSED020,Textbooks,Education,6,                    Textbooks,Consumption,[HSED002],Double,8,2
+374,HSRO001,Reading materials and other printed matter,Reading Materials and Other Printed Matter,4,            Reading materials and other printed matter,Consumption,[HSRO001],Double,8,2
+375,HSRO002,Newspapers,Reading Materials and Other Printed Matter,5,                Newspapers,Consumption,[HSRO001],Double,8,2
+376,HSRO003,Magazines and periodicals,Reading Materials and Other Printed Matter,5,                Magazines and periodicals,Consumption,[HSRO001],Double,8,2
+377,HSRO004,Books and E-Books,Reading Materials and Other Printed Matter,5,                Books and E-Books,Consumption,[HSRO001],Double,8,2
+378,HSRO005,"Maps, sheet music and other printed matter",Reading Materials and Other Printed Matter,5,"                Maps, sheet music and other printed matter",Consumption,[HSRO001],Double,8,2
+379,HSRO006,Services related to reading materials (e.g. library fees),Reading Materials and Other Printed Matter,5,                Services related to reading materials (e.g. library fees),Consumption,[HSRO001],Double,8,2
+380,HSTA001,Tobacco products and alcoholic beverages,Tobacco and Alcohol,4,            Tobacco products and alcoholic beverages,Consumption,[HSTA001],Double,8,2
+381,HSTA002,Tobacco products and smokers' supplies,Tobacco and Alcohol,5,                Tobacco products and smokers' supplies,Consumption,[HSTA001],Double,8,2
+382,HSTA002A,Cigarettes,Tobacco and Alcohol,6,                    Cigarettes,Consumption,[HSTA001],Double,8,2
+383,HSTA002B,Other tobacco products and smokers' supplies,Tobacco and Alcohol,6,                    Other tobacco products and smokers' supplies,Consumption,[HSTA001],Double,8,2
+384,HSTA005,Alcoholic beverages,Tobacco and Alcohol,5,                Alcoholic beverages,Consumption,[HSTA001],Double,8,2
+385,HSTA006,Alcoholic beverages served on licensed premises,Tobacco and Alcohol,6,                    Alcoholic beverages served on licensed premises,Consumption,[HSTA001],Double,8,2
+386,HSTA007,Alcoholic beverages purchased from stores,Tobacco and Alcohol,6,                    Alcoholic beverages purchased from stores,Consumption,[HSTA001],Double,8,2
+387,HSGC001,Games of chance,Games of Chance,4,            Games of chance,Consumption,[HSGC001],Double,8,2
+388,HSGC002,Government-run lotteries,Games of Chance,5,                Government-run lotteries,Consumption,[HSGC001],Double,8,2
+389,HSGC003,Other games of chance,Games of Chance,5,                Other games of chance,Consumption,[HSGC001],Double,8,2
+390,HSGC003C,Non-government lotteries and raffle tickets,Games of Chance,6,                    Non-government lotteries and raffle tickets,Consumption,[HSGC001],Double,8,2
+391,HSGC010,"Casinos, bingos and gaming machines",Games of Chance,6,"                    Casinos, bingos and gaming machines",Consumption,[HSGC001],Double,8,2
+392,HSME001,Miscellaneous expenditures,Miscellaneous Expenditures,4,            Miscellaneous expenditures,Consumption,[HSME001],Double,8,2
+393,HSME002,Financial services,Miscellaneous Expenditures,5,                Financial services,Consumption,[HSME001],Double,8,2
+394,HSME003,Service charges for banks and other financial institutions,Miscellaneous Expenditures,6,                    Service charges for banks and other financial institutions,Consumption,[HSME001],Double,8,2
+395,HSME004,Stock and bond commissions,Miscellaneous Expenditures,6,                    Stock and bond commissions,Consumption,[HSME001],Double,8,2
+396,HSME005,Administration fees for brokers and others,Miscellaneous Expenditures,6,                    Administration fees for brokers and others,Consumption,[HSME001],Double,8,2
+397,HSME006,Other financial services,Miscellaneous Expenditures,6,                    Other financial services,Consumption,[HSME001],Double,8,2
+398,HSME010,Total of other miscellaneous goods and services,Miscellaneous Expenditures,5,                Total of other miscellaneous goods and services,Consumption,[HSME001],Double,8,2
+399,HSME011,"Deposits, fines, and lost or stolen money",Miscellaneous Expenditures,6,"                    Deposits, fines, and lost or stolen money",Consumption,[HSME001],Double,8,2
+400,HSME012,Legal services not related to dwellings,Miscellaneous Expenditures,6,                    Legal services not related to dwellings,Consumption,[HSME001],Double,8,2
+401,HSME013,Dues to unions and professional associations,Miscellaneous Expenditures,6,                    Dues to unions and professional associations,Consumption,[HSME001],Double,8,2
+402,HSME014,Contributions and dues for social clubs and other social organisations,Miscellaneous Expenditures,6,                    Contributions and dues for social clubs and other social organisations,Consumption,[HSME001],Double,8,2
+403,HSME015,"Funeral services, cemetery plots and upkeep, and tombstones",Miscellaneous Expenditures,6,"                    Funeral services, cemetery plots and upkeep, and tombstones",Consumption,[HSME001],Double,8,2
+404,HSME115,Funeral services (excluding pre-paid funeral services),Miscellaneous Expenditures,7,                        Funeral services (excluding pre-paid funeral services),Consumption,[HSME001],Double,8,2
+405,HSME215,Pre-paid funeral services,Miscellaneous Expenditures,7,                        Pre-paid funeral services,Consumption,[HSME001],Double,8,2
+406,HSME016,Government services,Miscellaneous Expenditures,6,                    Government services,Consumption,[HSME001],Double,8,2
+407,HSME017,Wholesale/retail memberships,Miscellaneous Expenditures,6,                    Wholesale/retail memberships,Consumption,[HSME001],Double,8,2
+408,HSME019,Recycling fees and other environmental fees,Miscellaneous Expenditures,6,                    Recycling fees and other environmental fees,Consumption,[HSME001],Double,8,2
+409,HSME020,Other general expenditures,Miscellaneous Expenditures,6,                    Other general expenditures,Consumption,[HSME001],Double,8,2
+410,HSME021,Other goods and services,Miscellaneous Expenditures,6,                    Other goods and services,Consumption,[HSME001],Double,8,2
+411,HSEP001,Total personal insurance premiums and retirement/pension contributions,Personal Insurance and Pension,3,        Total personal insurance premiums and retirement/pension contributions,Consumption,[HSTE001],Double,8,2
+412,HSEP002,Employment and Quebec parental insurance premiums,Personal Insurance and Pension,4,            Employment and Quebec parental insurance premiums,Consumption,[HSEP001],Double,8,2
+413,HSEP008,Employment insurance premiums,Personal Insurance and Pension,5,                Employment insurance premiums,Consumption,[HSEP001],Double,8,2
+414,HSEP009,Quebec parental insurance premiums,Personal Insurance and Pension,5,                Quebec parental insurance premiums,Consumption,[HSEP001],Double,8,2
+415,HSEP003,Retirement and pension fund payments,Personal Insurance and Pension,4,            Retirement and pension fund payments,Consumption,[HSEP001],Double,8,2
+416,HSEP004,Total Canada/Quebec Pension Plan payments,Personal Insurance and Pension,5,                Total Canada/Quebec Pension Plan payments,Consumption,[HSEP001],Double,8,2
+417,HSEP005,Payments to retirement or pension funds,Personal Insurance and Pension,5,                Payments to retirement or pension funds,Consumption,[HSEP001],Double,8,2
+418,HSEP006,Annuity contracts and transfers to RRIFs,Personal Insurance and Pension,4,            Annuity contracts and transfers to RRIFs,Consumption,[HSEP001],Double,8,2
+419,HSEP007,"Premiums on life, term and endowment insurance",Personal Insurance and Pension,4,"            Premiums on life, term and endowment insurance",Consumption,[HSEP001],Double,8,2
+420,HSMG001,"Total money gifts, contributions and support payments",Gifts of Money and Contributions,3,"        Total money gifts, contributions and support payments",Consumption,[HSTE001],Double,8,2
+421,HSMG002,Total money gifts and support payments,Gifts of Money and Contributions,4,            Total money gifts and support payments,Consumption,[HSMG001],Double,8,2
+422,HSMG003,"Gifts, contributions and support payments to non-household members, living in Canada",Gifts of Money and Contributions,5,"                Gifts, contributions and support payments to non-household members, living in Canada",Consumption,[HSMG001],Double,8,2
+423,HSMG004,"Gifts, contributions and support payments to non-household members, living outside Canada",Gifts of Money and Contributions,5,"                Gifts, contributions and support payments to non-household members, living outside Canada",Consumption,[HSMG001],Double,8,2
+424,HSMG005,Support payments to a former spouse or partner,Gifts of Money and Contributions,5,                Support payments to a former spouse or partner,Consumption,[HSMG001],Double,8,2
+425,HSMG006,Total charitable contributions,Gifts of Money and Contributions,4,            Total charitable contributions,Consumption,[HSMG001],Double,8,2
+426,HSMG007,Charitable contributions to religious organizations,Gifts of Money and Contributions,5,                Charitable contributions to religious organizations,Consumption,[HSMG001],Double,8,2
+427,HSMG008,Contributions to other charitable organizations,Gifts of Money and Contributions,5,                Contributions to other charitable organizations,Consumption,[HSMG001],Double,8,2
+428,HSTE001ZB,Total non-current consumption,Real Estate,2,    Total non-current consumption,Consumption,[HSTE001ZB],Double,8,2
+429,HSWH002,Improvements and alterations to owned principal residence,Real Estate,3,        Improvements and alterations to owned principal residence,Consumption,[HSTE001ZB],Double,8,2
+430,HSWH003A,Exterior additions or extensions,Real Estate,4,            Exterior additions or extensions,Consumption,[HSTE001ZB],Double,8,2
+431,HSWH003B,Interior additions or extensions,Real Estate,4,            Interior additions or extensions,Consumption,[HSTE001ZB],Double,8,2
+432,HSWH005,Insulation,Real Estate,4,            Insulation,Consumption,[HSTE001ZB],Double,8,2
+433,HSWH006,"Fences, driveways, patios, swimming pools, hot tubs and major landscaping projects",Real Estate,4,"            Fences, driveways, patios, swimming pools, hot tubs and major landscaping projects",Consumption,[HSTE001ZB],Double,8,2
+434,HSWH007,Complete re-roofing,Real Estate,4,            Complete re-roofing,Consumption,[HSTE001ZB],Double,8,2
+435,HSWH008,Eavestroughing,Real Estate,4,            Eavestroughing,Consumption,[HSTE001ZB],Double,8,2
+436,HSWH009M,"Concrete basement floor, exterior walls, siding, soffits, facia, chimneys and foundations",Real Estate,4,"            Concrete basement floor, exterior walls, siding, soffits, facia, chimneys and foundations",Consumption,[HSTE001ZB],Double,8,2
+437,HSWH010A,Windows and exterior doors,Real Estate,4,            Windows and exterior doors,Consumption,[HSTE001ZB],Double,8,2
+438,HSWH010B,Interior windows and doors,Real Estate,4,            Interior windows and doors,Consumption,[HSTE001ZB],Double,8,2
+439,HSWH011,Hard surface flooring,Real Estate,4,            Hard surface flooring,Consumption,[HSTE001ZB],Double,8,2
+440,HSWH012,Plumbing fixtures and equipment,Real Estate,4,            Plumbing fixtures and equipment,Consumption,[HSTE001ZB],Double,8,2
+441,HSWH013,Septic systems and wells,Real Estate,4,            Septic systems and wells,Consumption,[HSTE001ZB],Double,8,2
+442,HSWH014,Heating and/or air conditioning equipment,Real Estate,4,            Heating and/or air conditioning equipment,Consumption,[HSTE001ZB],Double,8,2
+443,HSWH015,Home Security Devices,Real Estate,4,            Home Security Devices,Consumption,[HSTE001ZB],Double,8,2
+444,HSWH016,Central vacuums,Real Estate,4,            Central vacuums,Consumption,[HSTE001ZB],Double,8,2
+445,HSWH017,Other,Real Estate,4,            Other,Consumption,[HSTE001ZB],Double,8,2
+446,HSWH100,Renovating/remodelling of rooms,Real Estate,4,            Renovating/remodelling of rooms,Consumption,[HSTE001ZB],Double,8,2
+447,HSWH101,Finishing the basement,Real Estate,4,            Finishing the basement,Consumption,[HSTE001ZB],Double,8,2
+448,HSWH002B,Improvements and alterations to owned principal residence,Real Estate,3,        Improvements and alterations to owned principal residence,Consumption,[HSTE001ZB],Double,8,2
+449,HSOI010,Contract work or hired labour for improvements and alterations,Real Estate,4,            Contract work or hired labour for improvements and alterations,Consumption,[HSTE001ZB],Double,8,2
+450,HSOI010Z,Non-contract work or hired labour for improvements and alterations,Real Estate,4,            Non-contract work or hired labour for improvements and alterations,Consumption,[HSTE001ZB],Double,8,2
+451,HSWH028,Improvements and alterations to vacation homes,Real Estate,3,        Improvements and alterations to vacation homes,Consumption,[HSTE001ZB],Double,8,2
+452,HSWH040,Net purchase price of owned residences,Real Estate,3,        Net purchase price of owned residences,Consumption,[HSTE001ZB],Double,8,2
+453,HSWH021,Purchase of home(s),Real Estate,4,            Purchase of home(s),Consumption,[HSTE001ZB],Double,8,2
+454,HSWH022,Sale of home(s),Real Estate,4,            Sale of home(s),Consumption,[HSTE001ZB],Double,8,2
+455,HSWH041,Net purchase price of owned secondary residences,Real Estate,3,        Net purchase price of owned secondary residences,Consumption,[HSTE001ZB],Double,8,2
+456,HSWH026,Purchase of vacation home(s),Real Estate,4,            Purchase of vacation home(s),Consumption,[HSTE001ZB],Double,8,2
+457,HSWH027,Sale of vacation home(s),Real Estate,4,            Sale of vacation home(s),Consumption,[HSTE001ZB],Double,8,2
+458,HSWH042,Net purchase price of other owned properties,Real Estate,3,        Net purchase price of other owned properties,Consumption,[HSTE001ZB],Double,8,2
+459,HSWH031,Purchase of other property(ies),Real Estate,4,            Purchase of other property(ies),Consumption,[HSTE001ZB],Double,8,2
+460,HSWH032,Sale of other property(ies),Real Estate,4,            Sale of other property(ies),Consumption,[HSTE001ZB],Double,8,2
+461,HSTT001B,Total expenditure,Goods and Services by Purchase Method,1,Total expenditure,Consumption,[HSTT001],Double,8,2
+462,HSGS002,Goods and services purchased outside Canada,Goods and Services by Purchase Method,2,    Goods and services purchased outside Canada,Consumption,[HSTT001],Double,8,2
+463,HSGS000Z,Other,Goods and Services by Purchase Method,2,    Other,Consumption,[HSTT001],Double,8,2
